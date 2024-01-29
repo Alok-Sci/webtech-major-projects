@@ -1,0 +1,29 @@
+.feature__container :is(.section__subheader, .section__header) {
+    text-align: center;
+  }
+  
+  .feature__grid {
+    margin-top: 4rem;
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .feature__card span {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+  }
+  
+  .feature__card h4 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+    font-family: var(--header-font);
+    counter-reset: var(--text-dark);
+  }
+  
+  .feature__card p {
+    color: var(--text-light);
+  }
+  

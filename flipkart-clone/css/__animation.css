@@ -1,0 +1,48 @@
+/* fade animation  */
+@keyframes fade
+{
+    0%
+    {
+        opacity: 0;
+    }
+
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+/* login shake animation  */
+@keyframes login-shake {
+    0% {
+        transform: translate(0)
+    }
+
+    1.8% {
+        transform: translate(5px)
+    }
+
+    3.6% {
+        transform: translate(0)
+    }
+
+    5.3% {
+        transform: translate(5px)
+    }
+
+    7.1% {
+        transform: translate(0)
+    }
+
+    8.9% {
+        transform: translate(5px)
+    }
+
+    10.7% {
+        transform: translate(0)
+    }
+
+    to {
+        transform: translate(0)
+    }
+}

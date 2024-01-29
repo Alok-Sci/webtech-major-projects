@@ -1,0 +1,54 @@
+body {
+    padding-top: 56px;
+}
+
+/* Apply theme colors */
+.navbar-dark {
+    background-color: #0c343d;
+    color: white;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: var(--primary-color) !important;
+}
+
+.nav-link {
+    color: var(--primary-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--primary-hover) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+
+footer {
+    background-color: #0c343d;
+    /* color: white; */
+}
+
+/* Set the height of each section to screen size */
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Alternate background colors for sections */
+.alternate-bg {
+    background-color: #0c343d;
+    color: var(--primary-color) !important;
+}
+
+.alternate-bg-alt {
+    background-color: var(--primary-color) !important;
+    color: #0c343d;
+}

@@ -1,0 +1,458 @@
+.container1
+{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px 0px 0px;
+    /* box-shadow: 2px 1px 12px rgba(0, 0, 0, 0.5); */
+}
+
+#product-category li span
+{
+    font-family: 'inter_semibold';
+}
+
+.details
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details p
+{
+    font-family: Arial;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+/* Slider */
+.boss
+{
+    text-align: center;
+    /* padding: 10px 7px; */
+}
+
+.content
+{
+    height: 280px;
+    width: auto;
+    position: relative;
+}
+
+.content .images
+{
+    height: 100%;
+    width: 100%;
+}
+
+.content .images img
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* product slider  */
+.product-slider-container
+{
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+}
+.product-slider{
+    position: relative;
+    left: 0px;
+    width: max-content;
+    display: flex;
+    transition: all 0.5s ease;
+}
+.slider-nav
+{
+    position: absolute;
+    z-index: 9999;
+    display: grid;
+    place-content: center;
+    padding: 2.5rem .5rem;
+    cursor: pointer;
+    /* border: 2px solid white; */
+    background: white;
+}
+
+.slider-nav.left
+{
+    left: 0;
+    top: 50%;
+    border-radius: 0 4px 4px 0;
+    transform: translateY(-50%);
+}
+
+.slider-nav.right
+{
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 4px 0 0 4px;
+}
+
+
+/* --------------------- */
+.product-category
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-category span
+{
+    color: #acacac;
+    font-size: 0.9rem;
+    margin: 5px 0px;
+}
+
+.product-title
+{
+    color: #333333;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+
+.product-title:hover
+{
+    color: #111111;
+    opacity: 0.7;
+    transition: all ease 0.3s;
+}
+
+.price-buy
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.price-buy .p-price
+{
+    font-size: 1.3rem;
+    color: #333333;
+    font-weight: 700;
+}
+
+.price-buy .p-buy-btn
+{
+    margin: 0px 5px;
+    font-weight: 600;
+    background-color: var(--main-bg-color);
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    height: 35px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.p-discount
+{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 65px;
+    height: 24px;
+    color: #ffffff;
+    background-color: #e63b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    z-index: 100;
+    border-radius: 3px;
+}
+
+*/
+
+/* Information */
+.information
+{
+    background-color: white;
+    color: #878787;
+    margin: 2% 0%;
+}
+
+.information h1
+{
+    font-size: 1.5em;
+}
+
+.information h2
+{
+    font-size: 1.2em;
+}
+
+.info
+{
+    font-size: .8em;
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* footer */
+footer
+{
+    background-color: #172337;
+    color: white;
+    padding-top: 3%;
+}
+
+.Footer h6
+{
+    color: #878787;
+    font-size: .8em;
+}
+
+.Footer>div
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    font-size: .75em;
+    font-weight: 100;
+}
+
+.Footer a
+{
+    color: white;
+    line-height: 1.3rem;
+}
+
+.Footer p
+{
+    margin: 0;
+    font-size: .96em;
+    line-height: 1.2rem;
+}
+
+footer i
+{
+    color: gold;
+}
+
+footer span
+{
+    font-size: .75em;
+    cursor: pointer;
+}
+/* 
+
+
+@media (max-width:850px)
+{
+    .Navigator
+    {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .logo
+    {
+        align-items: flex-start;
+    }
+
+    .search
+    {
+        position: absolute;
+        top: 0;
+        left: 89px;
+        width: 65vw;
+    }
+
+    .seller a
+    {
+        position: absolute;
+        top: 60px;
+        right: 15px;
+    }
+
+    .login
+    {
+        right: 30px;
+        position: absolute;
+        top: 12px;
+    }
+
+    .more
+    {
+        top: -10px;
+        left: 72px
+    }
+
+    .cart
+    {
+        position: absolute;
+        top: 55px;
+        left: 10px;
+    }
+
+    .cart i
+    {
+        bottom: 10px;
+    }
+}
+
+@media(max-width:830px)
+{
+    .content
+    {
+        height: 210px;
+    }
+
+    .product-slider-heading
+    {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .product-slider
+    {
+        width: 100%;
+    }
+
+    .product-img a,
+    .product-img
+    {
+        height: 230px;
+    }
+}
+
+@media (max-width:735px)
+{
+    .logo
+    {
+        width: 25vw;
+    }
+
+    .login
+    {
+        padding: 0px;
+        top: 55px;
+        right: 150px;
+    }
+
+    .search
+    {
+        width: 65vw;
+    }
+}
+
+@media (max-width:600px)
+{
+    .container1
+    {
+        height: 150px;
+    }
+
+    .content
+    {
+        height: 150px;
+    }
+}
+
+@media (max-width:415px)
+{
+    .login
+    {
+        display: none;
+    }
+}
+
+@media(max-width:400px)
+{
+
+    .search input
+    {
+        margin-right: 12px;
+    }
+
+    .searchlogo
+    {
+        margin-right: 12px;
+    }
+
+    .container1
+    {
+        height: 150px;
+    }
+
+    .container
+    {
+        height: 130px;
+    }
+
+    .content
+    {
+        height: 110px !important;
+    }
+
+    .sliders
+    {
+        width: 20px;
+    }
+
+    .sliders span
+    {
+        line-height: 35px;
+        font-size: 20px;
+    }
+
+    .product-img a,
+    .product-img
+    {
+        height: 190px;
+    }
+
+    .product-box-offer
+    {
+        top: 10px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width:306px)
+{
+    .Navigator
+    {
+        padding-bottom: 40px;
+    }
+
+    .logo
+    {
+        width: 40vw;
+    }
+
+    .search
+    {
+        width: 160px;
+    }
+
+    .more
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width:280px)
+{
+    .search
+    {
+        width: 150px;
+    }
+} */

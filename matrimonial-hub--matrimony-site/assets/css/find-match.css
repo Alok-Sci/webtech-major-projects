@@ -1,0 +1,10 @@
+#find-match .feature{
+    border: 2px solid var(--secondary-color);
+    border-radius: 2rem;
+    margin-inline: 1rem;
+    padding: 1.5rem;
+}
+
+.feature > i{
+    font-size: 2.3rem;
+}

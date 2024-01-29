@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrimonial Site Registration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/login.css"> <!-- Include your custom stylesheet -->
+    <link rel="stylesheet" href="assets/css/__font.css">
+    <link rel="stylesheet" href="assets/css/__var.css">
+    <link rel="stylesheet" href="assets/css/button.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+
+    <!-- Add your CSS styles or link to an external stylesheet for the form styling -->
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #fde591; /* Use your primary color as the background */
+        }
+
+        label{
+            font-size: small;
+        }
+
+        #registration-container {
+            display: flex;
+            width: 80%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        #registration-container img {
+            width: 50%;
+            object-fit: cover;
+        }
+
+        #registration-form {
+            width: 50%;
+            padding: 20px;
+            background-color: #0c343d; /* Use your secondary color as the background */
+            color: white;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            text-align: center;
+            color: #fde591; /* Use your primary color for text */
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #fde591; /* Use your primary color for borders */
+            background-color: transparent;
+            color: white;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #fde591; /* Use your primary color for buttons */
+            color: #0c343d; /* Use your secondary color for button text */
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0c343d; /* Change background color on hover */
+            color: #fde591; /* Change text color on hover */
+        }
+
+        a {
+            color: #fde591; /* Use your primary color for links */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="registration-container">
+        <img src="path/to/bride_groom_image.jpg" alt="Bride and Groom Image">
+        <form id="registration-form">
+            <h2>Register for Matrimonial Site</h2>
+
+            <!-- Personal Information -->
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="marital-status">Marital Status:</label>
+            <select id="marital-status" name="marital-status" required>
+                <option value="single">Single</option>
+                <option value="divorced">Divorced</option>
+                <option value="widowed">Widowed</option>
+            </select>
+
+            <!-- Contact Information -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <!-- Address Information -->
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+
+            <!-- Educational and Professional Information -->
+            <label for="education">Education:</label>
+            <input type="text" id="education" name="education" required>
+
+            <label for="profession">Profession:</label>
+            <input type="text" id="profession" name="profession" required>
+
+            <!-- Partner Preferences -->
+            <label for="partner-age">Preferred Partner Age:</label>
+            <input type="number" id="partner-age" name="partner-age" required>
+
+            <label for="partner-religion">Preferred Partner Religion:</label>
+            <input type="text" id="partner-religion" name="partner-religion" required>
+
+            <!-- Add more fields as needed -->
+
+            <button type="submit">Register</button>
+
+            <p>Already have an account? <a href="#">Login here</a></p>
+
+            <!-- Option to register with Google -->
+            <p>or Register with Google: <a href="#">Register with Google</a></p>
+        </form>
+    </div>
+
+</body>
+
+</html>

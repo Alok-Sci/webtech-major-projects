@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Matrimonial Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/login.css"> <!-- Include your custom stylesheet -->
+    <style>
+        body {
+            background-color: #fde591; /* Set the background color */
+            font-family: Arial, sans-serif;
+        }
+
+        .login-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 100vh;
+        }
+
+        .login-form {
+            background-color: #0c343d; /* Set the form background color */
+            color: #fde591; /* Set the form text color */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .login-form img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #fde591; /* Set the form input border color */
+            border-radius: 4px;
+            background-color: #0c343d; /* Set the form input background color */
+            color: #fde591; /* Set the form input text color */
+        }
+
+        .btn-primary {
+            background-color: #fde591; /* Set the form button background color */
+            color: #0c343d; /* Set the form button text color */
+            border: 1px solid #fde591; /* Set the form button border color */
+        }
+
+        .btn-primary:hover {
+            background-color: #0c343d; /* Set the form button hover background color */
+            color: #fde591; /* Set the form button hover text color */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="login-container">
+        <div class="login-form">
+            <h2 class="text-center mb-4">Member Login</h2>
+            <form>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+        </div>
+        <img src="" alt="Bride and Groom" class="img-fluid">
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+    /* background-color: rgba(255, 0, 0, 0.134); */
+}
+
+/* reset list style  */
+ul
+{
+    list-style: none;
+}
+
+/* reset link decoration  */
+a
+{
+    text-decoration: none;
+}

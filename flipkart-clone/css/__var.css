@@ -1,0 +1,15 @@
+
+:root {
+    --bg-slate: #f1f2f5;
+    --font: 'inter_regular';
+    --font-b: 'inter_semibold';
+
+    --f-blue: #2874f0;
+    --f-orange: #fb641b;
+    --f-grey: #f1f3f6;
+    --f-t-lgrey: #dbdbdb;
+    --f-t-dgrey: #878787;
+    --main-font: 'Roboto', 'Lemonada', sans-serif;
+    --main-bg-color: #2874f0;
+}
+
